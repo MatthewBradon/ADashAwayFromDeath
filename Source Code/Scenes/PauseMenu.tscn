@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Theme.tres" type="Theme" id=1]
+[ext_resource path="res://Scripts/PauseMenu.cs" type="Script" id=2]
+
+[node name="PauseMenu" type="Control"]
+pause_mode = 2
+process_priority = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.0313726, 0.0313726, 0.0313726, 0.34902 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 437.0
+margin_top = 178.0
+margin_right = 515.0
+margin_bottom = 198.0
+rect_scale = Vector2( 2, 2 )
+text = "Paused"
+
+[node name="MenuContainer" type="VBoxContainer" parent="."]
+margin_left = 473.0
+margin_top = 275.0
+margin_right = 551.0
+margin_bottom = 325.0
+custom_constants/separation = 10
+
+[node name="ResumeButton" type="Button" parent="MenuContainer"]
+margin_right = 78.0
+margin_bottom = 20.0
+focus_neighbour_top = NodePath("../QuitButton")
+focus_neighbour_bottom = NodePath("../QuitButton")
+text = "Resume"
+
+[node name="QuitButton" type="Button" parent="MenuContainer"]
+margin_top = 30.0
+margin_right = 78.0
+margin_bottom = 50.0
+focus_neighbour_top = NodePath("../ResumeButton")
+focus_neighbour_bottom = NodePath("../ResumeButton")
+text = "Quit"
+
+[connection signal="pressed" from="MenuContainer/ResumeButton" to="." method="_on_ResumeButton_pressed"]
+[connection signal="pressed" from="MenuContainer/QuitButton" to="." method="_on_QuitButton_pressed"]

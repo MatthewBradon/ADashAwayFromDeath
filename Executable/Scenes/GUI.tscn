@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/GUITimer.cs" type="Script" id=1]
+[ext_resource path="res://Theme.tres" type="Theme" id=2]
+[ext_resource path="res://Scripts/LevelCountText.cs" type="Script" id=3]
+[ext_resource path="res://Scenes/PauseMenu.tscn" type="PackedScene" id=4]
+
+[node name="GUI" type="CanvasLayer"]
+
+[node name="PauseMenu" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="TimerText" type="RichTextLabel" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -20.0
+margin_right = 60.0
+margin_bottom = 40.0
+theme = ExtResource( 2 )
+script = ExtResource( 1 )
+
+[node name="LabelCountText" type="RichTextLabel" parent="."]
+margin_right = 80.0
+margin_bottom = 40.0
+rect_scale = Vector2( 1.05429, 0.845994 )
+theme = ExtResource( 2 )
+scroll_active = false
+script = ExtResource( 3 )
