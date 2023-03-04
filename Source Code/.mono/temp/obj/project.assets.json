@@ -420,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matth\\ADashAwayFromDeath\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\matth\\Desktop\\ADashAwayFromDeath\\Source Code\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\matth\\ADashAwayFromDeath\\Test.csproj",
+      "projectPath": "C:\\Users\\matth\\Desktop\\ADashAwayFromDeath\\Source Code\\Test.csproj",
       "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matth\\ADashAwayFromDeath\\.mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\matth\\Desktop\\ADashAwayFromDeath\\Source Code\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config"

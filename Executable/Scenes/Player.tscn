@@ -54,54 +54,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [ 15, 16, 17, 15 ]
 }
-tracks/1/type = "value"
-tracks/1/path = NodePath("CollisionShape2D:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 2, 7.625 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("WallJumpRaycast:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 2, 14 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("FloorRaycast:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 5, 17 ) ]
-}
-tracks/4/type = "value"
-tracks/4/path = NodePath("FloorRaycast2:position")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( -1, 17 ) ]
-}
 
 [sub_resource type="Animation" id=22]
 resource_name = "dash"
@@ -118,42 +70,6 @@ tracks/0/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ 14 ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("CollisionShape2D:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 2, 7.625 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("FloorRaycast:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 5, 17 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("FloorRaycast2:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( -5, 17 ) ]
 }
 
 [sub_resource type="Animation" id=20]
@@ -172,42 +88,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [ 12, 13 ]
 }
-tracks/1/type = "value"
-tracks/1/path = NodePath("CollisionShape2D:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 2, 7.625 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("FloorRaycast:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 6, 16 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("FloorRaycast2:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 0, 16 ) ]
-}
 
 [sub_resource type="Animation" id=17]
 resource_name = "idle"
@@ -225,42 +105,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [ 0, 1, 2 ]
 }
-tracks/1/type = "value"
-tracks/1/path = NodePath("CollisionShape2D:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 0, 7.625 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("FloorRaycast:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 4, 17 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("FloorRaycast2:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( -4, 17 ) ]
-}
 
 [sub_resource type="Animation" id=21]
 resource_name = "jump"
@@ -276,54 +120,6 @@ tracks/0/keys = {
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ 10, 11 ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("CollisionShape2D:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 3, 7.625 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("WallJumpRaycast:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 2, 14 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("FloorRaycast:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 4, 13 ) ]
-}
-tracks/4/type = "value"
-tracks/4/path = NodePath("FloorRaycast2:position")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( -3, 14 ) ]
 }
 
 [sub_resource type="Animation" id=18]
@@ -342,54 +138,6 @@ tracks/0/keys = {
 "update": 1,
 "values": [ 4, 5, 7, 8, 9 ]
 }
-tracks/1/type = "value"
-tracks/1/path = NodePath("CollisionShape2D:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 5, 9.625 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("WallJumpRaycast:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 5, 14 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("FloorRaycast:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 8, 17 ) ]
-}
-tracks/4/type = "value"
-tracks/4/path = NodePath("FloorRaycast2:position")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( -3, 17 ) ]
-}
 
 [node name="Player" type="KinematicBody2D"]
 pause_mode = 1
@@ -398,14 +146,15 @@ collision_mask = 7
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 2, 7.625 )
+position = Vector2( 0, 10 )
+scale = Vector2( 0.5, 1 )
 shape = SubResource( 16 )
 
 [node name="PlayerSpriteSheet" type="Sprite" parent="."]
 position = Vector2( 0, 7 )
 texture = ExtResource( 6 )
 hframes = 19
-frame = 13
+frame = 2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 23 )
@@ -417,19 +166,19 @@ anims/jump = SubResource( 21 )
 anims/walk = SubResource( 18 )
 
 [node name="WallJumpRaycast" type="RayCast2D" parent="."]
-position = Vector2( 2, 14 )
+position = Vector2( 1, 14 )
 rotation = -1.5708
 enabled = true
 cast_to = Vector2( 0, 10 )
 
 [node name="FloorRaycast" type="RayCast2D" parent="."]
-position = Vector2( 6, 16 )
+position = Vector2( 2, 17 )
 scale = Vector2( 2, 3 )
 enabled = true
 cast_to = Vector2( 0, 3 )
 
 [node name="FloorRaycast2" type="RayCast2D" parent="."]
-position = Vector2( 0, 16 )
+position = Vector2( -2, 17 )
 scale = Vector2( 2, 3 )
 enabled = true
 cast_to = Vector2( 0, 3 )

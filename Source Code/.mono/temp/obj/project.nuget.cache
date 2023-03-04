@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bwd7tmZvMquOM4P7skZnBY/w5o44SbfcYXPRbIqKHUPh1+yc82uWVVhnTsvRuXuOQpPtgxgRRlr4HpVB8gR2iA==",
+  "dgSpecHash": "dmsF8m4erFgw4wnKTTFsaGbDr5d69VJUwvghk37OMcj2jj2yyinnu0BzmKhCbbLG7rZKUX4cLuly343kkLe6OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matth\\ADashAwayFromDeath\\Test.csproj",
+  "projectFilePath": "C:\\Users\\matth\\Desktop\\ADashAwayFromDeath\\Source Code\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"

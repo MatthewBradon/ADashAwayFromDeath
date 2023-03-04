@@ -7,3 +7,12 @@ C:\Users\matth\ADashAwayFromDeath\.mono\temp\obj\ExportDebug\Test.AssemblyInfo.c
 C:\Users\matth\ADashAwayFromDeath\.mono\temp\obj\ExportDebug\Test.csproj.CoreCompileInputs.cache
 C:\Users\matth\ADashAwayFromDeath\.mono\temp\obj\ExportDebug\Test.dll
 C:\Users\matth\ADashAwayFromDeath\.mono\temp\obj\ExportDebug\Test.pdb
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\bin\ExportDebug\Test.dll
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\bin\ExportDebug\Test.pdb
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.csproj.AssemblyReference.cache
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.AssemblyInfoInputs.cache
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.AssemblyInfo.cs
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.csproj.CoreCompileInputs.cache
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.dll
+C:\Users\matth\Desktop\ADashAwayFromDeath\Source Code\.mono\temp\obj\ExportDebug\Test.pdb
